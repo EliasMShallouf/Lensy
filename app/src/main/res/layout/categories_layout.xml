@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".views.activities.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:gravity="center_vertical"
+            >
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/categories"
+                android:textSize="18sp"
+                app:lineHeight="18sp"
+                app:fontFamily="@font/bold"
+                android:layout_alignParentLeft="true"
+                android:textColor="?sections_text_color"
+                android:layout_centerVertical="true"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/see_all"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimaryDark"
+                app:fontFamily="@font/bold"
+                android:layout_alignParentRight="true"
+                app:drawableRightCompat="@drawable/ic_expand_more"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                app:lineHeight="8sp"
+                android:visibility="invisible"
+                />
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/categories_list"
+            />
+
+    </LinearLayout>
+</layout>

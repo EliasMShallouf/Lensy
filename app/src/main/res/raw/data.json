@@ -1,0 +1,127 @@
+[
+  {
+    "barcode": "000001",
+    "description": "Mercedes",
+    "category": "Cars"
+  },
+  {
+    "barcode": "000002",
+    "description": "meeting table",
+    "category": "Furniture"
+  },
+  {
+    "barcode": "000003",
+    "description": "Sharp Calculator",
+    "category": "Equipments"
+  },
+  {
+    "barcode": "000004",
+    "description": "Compressor",
+    "category": "Electrical Equipments"
+  },
+  {
+    "barcode": "000005",
+    "description": "Powder Fire extinguisher",
+    "category": "Fire extinguisher"
+  },
+  {
+    "barcode": "000006",
+    "description": "Optas Telephone",
+    "category": "Telephone"
+  },
+  {
+    "barcode": "000007",
+    "description": "Samsung Printer",
+    "category": "Printer"
+  },
+  {
+    "barcode": "000008",
+    "description": "MoneyGram Fax",
+    "category": "Fax"
+  },
+  {
+    "barcode": "000009",
+    "description": "Beta Machine",
+    "category": "Photocopier Machine"
+  },
+  {
+    "barcode": "000010",
+    "description": "Cassio Calculator",
+    "category": "Calculator"
+  },
+  {
+    "barcode": "000011",
+    "description": "work station",
+    "category": "Furniture"
+  },
+  {
+    "barcode": "000012",
+    "description": "Volks Wagen",
+    "category": "Cars"
+  },
+  {
+    "barcode": "000013",
+    "description": "Surround System",
+    "category": "Electrical Equipments"
+  },
+  {
+    "barcode": "000014",
+    "description": "Attendance Machine",
+    "category": "Electrical Equipments"
+  },
+  {
+    "barcode": "000015",
+    "description": "LG LCD 32",
+    "category": "Television & Video"
+  },
+  {
+    "barcode": "000016",
+    "description": "Smoke Detector",
+    "category": "Alarm System"
+  },
+  {
+    "barcode": "000017",
+    "description": "CISCO PC",
+    "category": "Computer Machine"
+  },
+  {
+    "barcode": "000018",
+    "description": "HP PC",
+    "category": "Computer Machine"
+  },
+  {
+    "barcode": "000019",
+    "description": "HP Printer",
+    "category": "Printer"
+  },
+  {
+    "barcode": "000020",
+    "description": "Planet Machine",
+    "category": "Planet Machine"
+  },
+  {
+    "barcode": "000021",
+    "description": "Metal Curtain",
+    "category": "Metal Curtain"
+  },
+  {
+    "barcode": "000022",
+    "description": "White Curtains",
+    "category": "Curtain"
+  },
+  {
+    "barcode": "000023",
+    "description": "Meeting Table 220x110x72.2",
+    "category": "Desks & Tables"
+  },
+  {
+    "barcode": "000024",
+    "description": "Side Table",
+    "category": "Desks & Tables"
+  },
+  {
+    "barcode": "000025",
+    "description": "Big Wooden Cabinet",
+    "category": "Cabinet"
+  }
+]

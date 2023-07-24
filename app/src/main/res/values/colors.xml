@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00B0FF</color>
+    <color name="colorPrimaryDark">#42A5F5</color>
+    <color name="colorAccent">#80D8FF</color>
+    <color name="spanColor">#88448AFF</color>
+    <color name="searchTextColor">#D7000000</color>
+    <color name="searchHintTextColor">#3D000000</color>
+    <color name="searchCardStroke">#1A898989</color>
+    <color name="black">#000000</color>
+    <color name="menuIconStrokeColor">#26979797</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#D8FF5252</color>
+</resources>

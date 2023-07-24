@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme.Main" parent="AppTheme">
+        <item name="isLightTheme">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#121212</item>
+        <item name="android:navigationBarColor">#121212</item>
+        <item name="category_background">#3EF5F5F5</item>
+        <item name="category_text_color">#BFFFFFFF</item>
+        <item name="category_background_selected">@color/colorPrimary</item>
+        <item name="category_text_color_selected">#FFFFFF</item>
+        <item name="android:windowBackground">#121212</item>
+        <item name="title_text_color">@color/white</item>
+        <item name="sections_text_color">@color/white</item>
+        <item name="cards_text_color">#D6FFFFFF</item>
+        <item name="asset_card_bg">#242424</item>
+        <item name="asset_card_title_text_color">#F0FFFFFF</item>
+        <item name="search_card_bg">#242424</item>
+        <item name="asset_card_barcode">#EBFFFFFF</item>
+        <item name="search_card_icon_color">#B4F0F0F0</item>
+        <item name="search_card_hint_color">#B4F0F0F0</item>
+        <item name="search_card_text_color">#E2FFFFFF</item>
+        <item name="toolbar_divider">#20FFFFFF</item>
+        <item name="span_color">#6D448AFF</item>
+        <item name="asset_card_category_bg">#28FFFFFF</item>
+        <item name="asset_card_category_stroke">#27FFFFFF</item>
+    </style>
+</resources>

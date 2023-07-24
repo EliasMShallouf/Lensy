@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lensy</string>
+    <string name="all">All</string>
+    <string name="expanded_subtitle">This is just a dummy text with non-sense meaning</string>
+    <string name="expanded_title">Welcome to Lensy!</string>
+    <string name="filter_hint">Search by text…</string>
+    <string name="categories">Categories</string>
+    <string name="see_all">See all</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_assets_desc">No assets found for key \'%s\'!</string>
+    <string name="oops">Oops!…</string>
+    <string name="search_again">Clear filter and search again</string>
+    <string name="assets">Assets</string>
+</resources>

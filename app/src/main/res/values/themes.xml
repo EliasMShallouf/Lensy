@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="AppTheme.Main" parent="AppTheme">
+        <item name="isLightTheme">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="category_background">#A1E4E4E4</item>
+        <item name="category_text_color">#85474747</item>
+        <item name="category_background_selected">@color/colorPrimary</item>
+        <item name="category_text_color_selected">#FFFFFF</item>
+        <item name="title_text_color">@color/black</item>
+        <item name="sections_text_color">@color/black</item>
+        <item name="cards_text_color">#D6000000</item>
+        <item name="asset_card_bg">@color/white</item>
+        <item name="asset_card_title_text_color">#D6000000</item>
+        <item name="search_card_bg">@android:color/transparent</item>
+        <item name="asset_card_barcode">#EB1F1F1F</item>
+        <item name="search_card_icon_color">#3D000000</item>
+        <item name="search_card_hint_color">@color/searchHintTextColor</item>
+        <item name="search_card_text_color">@color/searchTextColor</item>
+        <item name="toolbar_divider">#00FFFFFF</item>
+        <item name="span_color">@color/spanColor</item>
+        <item name="asset_card_category_bg">@color/colorPrimary</item>
+        <item name="asset_card_category_stroke">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Transparent" parent="AppTheme">
+        <item name="isLightTheme">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+    </style>
+</resources>

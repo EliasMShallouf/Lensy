@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.activities.BarcodeActivity">
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/qr_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:autoFocusButtonColor="@android:color/white"
+        app:autoFocusButtonVisible="false"
+        app:flashButtonColor="@android:color/white"
+        app:flashButtonVisible="false"
+        app:frameColor="@android:color/white"
+        app:frameCornersSize="50dp"
+        app:frameCornersRadius="24dp"
+        app:frameAspectRatioWidth="4"
+        app:frameAspectRatioHeight="3"
+        app:frameSize="0.75"
+        app:frameThickness="2dp"
+        app:maskColor="#5C000000"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        app:rippleColor="@color/white"
+        app:borderWidth="1dp"
+        app:fabSize="normal"
+        app:pressedTranslationZ="0dp"
+        app:backgroundTint="@color/white"
+        app:srcCompat="@drawable/ic_focus"
+        android:tint="@color/black"
+        android:layout_marginTop="@dimen/margin_36"
+        android:layout_marginLeft="@dimen/margin_24"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/autoFocusBtn"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        app:rippleColor="@color/white"
+        app:borderWidth="1dp"
+        app:fabSize="normal"
+        app:pressedTranslationZ="0dp"
+        app:backgroundTint="@color/white"
+        app:srcCompat="@drawable/ic_flash_auto"
+        android:tint="@color/black"
+        android:layout_marginTop="@dimen/margin_36"
+        android:layout_marginRight="@dimen/margin_24"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/flashBtn"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        app:cornerRadius="24dp"
+        android:textAllCaps="true"
+        app:strokeWidth="0dp"
+        app:backgroundTint="@color/colorAccent"
+        app:rippleColor="@color/white"
+        app:elevation="0dp"
+        android:textColor="@color/white"
+        android:text="@string/cancel"
+        android:layout_alignParentBottom="true"
+        app:fontFamily="@font/bold"
+        android:paddingTop="17dp"
+        android:paddingBottom="17dp"
+        android:textScaleX="0.9"
+        android:layout_marginRight="@dimen/margin_24"
+        android:layout_marginLeft="@dimen/margin_24"
+        android:layout_marginBottom="6dp"
+        android:id="@+id/close"
+        />
+
+</RelativeLayout>

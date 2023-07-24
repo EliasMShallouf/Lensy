@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="assets_count">
+        <item quantity="one" formatted="true">%1$d asset found</item>
+        <item quantity="other" formatted="true">%1$d assets found</item>
+    </plurals>
+</resources>
